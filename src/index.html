@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="./output.css" />
   </head>
   <body class="bg-black flex justify-center">
-    <div class="w-[1440px] bg-[#FFFFFF] h-[6892px]">
+    <div class="w-[1440px] bg-[#FFFFFF] h-[7000px]">
       <nav
         class="w-full h-[100px] bg-[#FFFFFF33] flex items-start p-[20px] justify-between rounded-br-[10px] rounded-bl-[10px]"
       >
@@ -797,10 +797,16 @@
         </div>
       </div>
       <!-- footer -->
-      <div class="w-full h-[557px] flex justify-center items-center">
-        <div class="w-[1280px] h-full flex gap-12">
+      <div
+        class="w-full h-[557px] flex justify-center items-center border-t-[1px] border-[#E5E7EB]"
+      >
+        <div
+          class="w-[1280px] h-full flex justify-between border-b-[1px] border-[#E5E7EB]"
+        >
           <!-- left -->
-          <div class="flex gap-[40px] py-[101px] pr-[40px]">
+          <div
+            class="flex flex-[2] gap-[40px] py-[101px] px-[40px] justify-end"
+          >
             <div class="flex flex-col gap-[16px]">
               <p
                 class="text-[#111928] font-[600] text-[14px] leading-[21px] text-right"
@@ -877,9 +883,11 @@
             </div>
           </div>
           <!-- center -->
-          <div class="flex flex-col py-[100px] px-[40px] relative">
+          <div
+            class="flex flex-[1] flex-col py-[100px] px-[55px] relative border-l-[1px] border-r-[1px] border-[#E5E7EB]"
+          >
             <div
-              class="w-[184px] h-[184px] border-[1px] rounded-full border-[#D1D5DB] flex justify-center items-center absolute -top-[100px]"
+              class="w-[184px] h-[184px] border-[1px] rounded-full border-[#D1D5DB] flex justify-center items-center absolute -top-[100px] left-[50%] translate-x-[-50%]"
             >
               <img class="w-[144px] h-[144px]" src="./assets/logo.png" alt="" />
             </div>
@@ -933,7 +941,74 @@
               </div>
             </div>
           </div>
+          <!-- right -->
+          <div class="flex flex-[2] flex-col gap-[24px] py-[101px] px-[40px]">
+            <div class="flex flex-col gap-[16px]">
+              <p class="text-[#111928] font-[600] text-[14px] leading-[21px]">
+                FOLLOW US
+              </p>
+              <div class="flex gap-[16px] items-center">
+                <img
+                  class="w-[24px] h-[24px]"
+                  src="./assets/fbicon1.png"
+                  alt=""
+                />
+                <img
+                  class="w-[24px] h-[25px]"
+                  src="./assets/instaicon.png"
+                  alt=""
+                />
+                <img
+                  class="w-[18px] h-[18px]"
+                  src="./assets/xicon.png"
+                  alt=""
+                />
+                <img
+                  class="w-[9px] h-[18px]"
+                  src="./assets/fbicon2.png"
+                  alt=""
+                />
+                <img
+                  class="w-[22px] h-[15px]"
+                  src="./assets/yticon.png"
+                  alt=""
+                />
+              </div>
+            </div>
+            <div class="flex flex-col gap-[16px]">
+              <p class="text-[#111928] font-[600] text-[14px] leading-[21px]">
+                SUBSCRIBE NEWSLETTER
+              </p>
+              <div
+                class="w-[400px] h-[42px] rounded-[8px] overflow-hidden flex items-center justify-between border-t-[1px] border-b-[1px] border-l-[1px] border-[#D1D5DB]"
+              >
+                <div class="flex gap-[10px] py-[12px] px-[16px]">
+                  <img src="./assets/mail.svg" alt="" />
+                  <input
+                    class="outline-none focus:ring-0"
+                    type="text"
+                    placeholder="Enter Your Email"
+                    name=""
+                    id=""
+                  />
+                </div>
+                <button
+                  class="bg-[#CD0001] w-[127px] h-[42px] py-[10px] px-[20px] text-[#FFFFFF] font-[600] text-[16px] leading-[19px] rounded-tr-[8px] rounded-br-[8px]"
+                >
+                  SUBSCRIBE
+                </button>
+              </div>
+            </div>
+          </div>
         </div>
+      </div>
+      <!-- copyright -->
+      <div class="w-full h-[58px] flex items-end justify-center">
+        <p
+          class="text-[#6B7280] font-[400] text-[16px] leading-[24px] text-center"
+        >
+          © 2024 Webelight Solutions, All rights reserved.
+        </p>
       </div>
     </div>
   </body>
