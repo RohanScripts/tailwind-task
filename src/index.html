@@ -4,34 +4,39 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="stylesheet" href="input.css" />
     <link rel="stylesheet" href="./output.css" />
   </head>
-  <body class="bg-black flex justify-center">
-    <div class="w-[1440px] bg-[#FFFFFF] h-[7000px]">
-      <nav
-        class="w-full h-[100px] bg-[#FFFFFF33] flex items-start p-[20px] justify-between rounded-br-[10px] rounded-bl-[10px]"
+  <body class="w-full bg-black flex justify-center">
+    <div class="w-full bg-[#FFFFFF] h-auto">
+      <!--<nav
+        class="w-full h-[100px] bg-[#FFFFFF33] flex items-start py-[20px] justify-between rounded-br-[10px] rounded-bl-[10px]"
       >
-        <div class="flex gap-[24px] items-center p-[10px]">
-          <a href="">Specialties</a>
-          <a href="">About Us</a>
-          <a href="">Emergency</a>
-          <a href="">Treatments & Services</a>
+        <div class="container flex items-center justify-center">
+          <div class="flex gap-[24px] items-center p-[10px]">
+            <a href="">Specialties</a>
+            <a href="">About Us</a>
+            <a href="">Emergency</a>
+            <a href="">Treatments & Services</a>
+          </div>
+          <div
+            class="w-[144px] h-[144px] rounded-[500px] p-[20px] bg-[#FFFFFF33] z-10"
+          >
+            <img class="w-[104px] h-[104px]" src="./assets/logo.png" />
+          </div>
+          <div class="flex gap-[24px] items-center p-[10px]">
+            <a href="">Online Consultation</a>
+            <a href="">Health Packages</a>
+            <a href="">Health Tips</a>
+            <a href="">Contact Us</a>
+          </div>
         </div>
-        <div
-          class="w-[144px] h-[144px] rounded-[500px] p-[20px] bg-[#FFFFFF33] z-10"
-        >
-          <img class="w-[104px] h-[104px]" src="./assets/logo.png" />
-        </div>
-        <div class="flex gap-[24px] items-center p-[10px]">
-          <a href="">Online Consultation</a>
-          <a href="">Health Packages</a>
-          <a href="">Health Tips</a>
-          <a href="">Contact Us</a>
-        </div>
-      </nav>
-      <div class="w-full h-[36px]"></div>
+      </nav>-->
+      <div class="container h-[36px]"></div>
       <!-- slider section -->
-      <div class="w-full h-[671px] flex items-center justify-between">
+      <div
+        class="container h-[671px] px-[80px] gap-[24px] flex items-center justify-between"
+      >
         <div class="w-[24px] h-[591px] bg-[#FFCCCC] rounded-r-[50px]"></div>
         <div
           class="bg-gradient-to-r from-[#FFF9F2] to-[#FFE7CB] w-[1344px] h-[671px] rounded-[50px] overflow-hidden flex justify-between"
@@ -40,7 +45,7 @@
           <div class="left relative p-[28px]">
             <!-- circle -->
             <div
-              class="w-[633px] h-[633px] rounded-full bg-gradient-to-r from-[#FFE7CB] to-[#FFE7CB1A] absolute -left-[250px]"
+              class="w-[633px] h-[633px] rounded-full bg-gradient-to-r from-[#FFE7CB1A] to-[#FFE7CB] absolute -left-[200px]"
             ></div>
             <!-- text above circle -->
             <div class="w-[501px] h-[513px] z-10 absolute">
@@ -175,113 +180,127 @@
         <div class="w-[12px] h-[12px] bg-[#DDD1C5] rounded-full"></div>
       </div>
       <!-- testimonials -->
-      <div
-        class="w-full h-[819px] py-[64px] px-[80px] flex flex-col gap-[46px]"
-      >
-        <!-- heading -->
-        <h1 class="w-[1280px] h-[77px] font-[700] text-[48px] leading-[76px]">
-          Patient Testimonials
-        </h1>
-        <!-- testimonial content -->
-        <div class="w-[1280px] h-[454px] flex justify-between items-center">
-          <!-- left testimonial -->
-          <div
-            class="w-[618px] h-[450px] border-[1px] border-[#CCCCCC66] rounded-[30px] flex items-center justify-center relative"
+      <div class="container py-[64px] px-[80px]">
+        <div class="w-full flex flex-col gap-[46px]">
+          <!-- heading -->
+          <h1
+            class="w-full h-[77px] font-[700] lg:text-[40px] xl:text-[48px] leading-[76px]"
           >
-            <img src="./assets/testimonial.png" alt="" />
-            <div
-              class="w-[102px] h-[102px] bg-[#FFDDDD66] rounded-full absolute blur-[15] flex items-center justify-center"
-            >
-              <img class="w-[56px] h-[56px]" src="./assets/play.png" alt="" />
-            </div>
-          </div>
-          <!-- right testimonial -->
+            Patient Testimonials
+          </h1>
+          <!-- testimonial content -->
           <div
-            class="w-[588px] h-[454px] flex flex-col gap-[24px] justify-between"
+            class="w-full flex justify-between items-center flex-wrap gap-[74px]"
           >
-            <div>
-              <img class="w-[88px] h-[83px]" src="./assets/Stroke.svg" alt="" />
+            <!-- left testimonial -->
+            <div
+              class="lg:w-[400px] xl:w-[540px] 2xl:w-[618px] p-[10px] border-[1px] border-[#CCCCCC66] rounded-[30px] flex items-center justify-center relative"
+            >
+              <img src="./assets/testimonial.png" alt="" />
+              <div
+                class="w-[102px] h-[102px] bg-[#FFDDDD66] rounded-full absolute blur-[15] flex items-center justify-center"
+              >
+                <img class="w-[56px] h-[56px]" src="./assets/play.png" alt="" />
+              </div>
             </div>
-            <div>
-              <p class="font-[500] text-[24px] leading-[45px]">
-                "I can't express how grateful I am to the entire team at Bankers
-                Hospital. When my husband, John, started experiencing severe
-                chest pain, we rushed him to the hospital. From the moment we
-                arrived, the care and attention were extraordinary.”
-              </p>
-            </div>
-            <div class="text-[#1F2A37] lex flex-col gap-[4px]">
-              <p class="leading-[30px] font-[600] text-[24px]">Peter John</p>
-              <p class="font-[400] text-[14px] leading-[19px]">
-                Cardiology Patient
-              </p>
+            <!-- right testimonial -->
+            <div
+              class="lg:max-w-[380px] xl:max-w-[500px] w-full 2xl:w-[588px] flex flex-col lg:gap-[15px] xl:gap-[24px] justify-between"
+            >
+              <div>
+                <img
+                  class="w-full lg:max-w-[50px] xl:w-[88px] h-[83px]"
+                  src="./assets/Stroke.svg"
+                  alt=""
+                />
+              </div>
+              <div>
+                <p
+                  class="font-[500] lg:text-[18px] xl:text-[20px] 2xl:text-[24px] lg:leading-[34px] xl:leading-[45px]"
+                >
+                  "I can't express how grateful I am to the entire team at
+                  Bankers Hospital. When my husband, John, started experiencing
+                  severe chest pain, we rushed him to the hospital. From the
+                  moment we arrived, the care and attention were extraordinary.”
+                </p>
+              </div>
+              <div class="text-[#1F2A37] lex flex-col gap-[4px]">
+                <p class="leading-[30px] font-[600] text-[24px]">Peter John</p>
+                <p class="font-[400] text-[14px] leading-[19px]">
+                  Cardiology Patient
+                </p>
+              </div>
             </div>
           </div>
-        </div>
-        <!-- pages -->
-        <div class="w-full h-[68px] flex items-center justify-between">
-          <!-- left -->
-          <div class="flex items-center gap-[6px]">
-            <div class="w-[16px] h-[16px] rounded-full bg-[#900C0D]"></div>
-            <div class="w-[12px] h-[12px] rounded-full bg-[#DDD1C5]"></div>
-            <div class="w-[12px] h-[12px] rounded-full bg-[#DDD1C5]"></div>
-            <div class="w-[12px] h-[12px] rounded-full bg-[#DDD1C5]"></div>
-          </div>
-          <!-- right -->
-          <div class="flex gap-[24px]">
-            <div
-              class="w-[130px] h-[68px] rounded-[150px] border-[2px] border-[#D1D5DB] flex items-center justify-center"
-            >
-              <img src="./assets/left-arrow.png" alt="" />
+          <!-- pages -->
+          <div class="w-full h-[68px] flex items-center justify-between">
+            <!-- left -->
+            <div class="flex items-center gap-[6px]">
+              <div class="w-[16px] h-[16px] rounded-full bg-[#900C0D]"></div>
+              <div class="w-[12px] h-[12px] rounded-full bg-[#DDD1C5]"></div>
+              <div class="w-[12px] h-[12px] rounded-full bg-[#DDD1C5]"></div>
+              <div class="w-[12px] h-[12px] rounded-full bg-[#DDD1C5]"></div>
             </div>
-            <div
-              class="w-[130px] h-[68px] rounded-[150px] border-[2px] border-[#D1D5DB] flex items-center justify-center"
-            >
-              <img src="./assets/right-arrow.png" alt="" />
+            <!-- right -->
+            <div class="flex gap-[24px]">
+              <button
+                class="xl:w-[130px] xl:h-[68px] lg:w-[100px] lg:h-[60px] rounded-[150px] border-[2px] border-[#D1D5DB] flex items-center justify-center"
+              >
+                <img src="./assets/left-arrow.png" alt="" />
+              </button>
+              <button
+                class="xl:w-[130px] xl:h-[68px] lg:w-[100px] lg:h-[60px] rounded-[150px] border-[2px] border-[#D1D5DB] flex items-center justify-center"
+              >
+                <img src="./assets/right-arrow.png" alt="" />
+              </button>
             </div>
           </div>
         </div>
       </div>
       <!-- care from home -->
       <div
-        class="w-full h-[593px] py-[64px] px-[80px] flex items-center justify-between bg-gradient-to-r from-[#FFF4E8] to-[#FFDDB8]"
+        class="w-full h-[593px] flex items-center justify-between bg-gradient-to-r from-[#FFF4E8] to-[#FFDDB8]"
       >
-        <!-- left -->
-        <div class="flex flex-col gap-[36px]">
-          <div class="w-[503px] flex flex-col gap-[22px]">
-            <p
-              class="font-[700] w-[90%] text-[#111928] leading-[76px] text-[48px]"
+        <div
+          class="flex items-center justify-between container py-[64px] px-[80px]"
+        >
+          <!-- left -->
+          <div class="flex flex-col gap-[36px]">
+            <div class="flex flex-col gap-[22px]">
+              <p
+                class="font-[700] text-[#111928] leading-[60px] xl:leading-[76px] lg:text-[40px] xl:text-[48px]"
+              >
+                Get Expert Care From Home
+              </p>
+              <p
+                class="font-[400] w-[80%] text-[16px] leading-[28px] text-[#4B5563]"
+              >
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit
+                urna, tortor pulvinar dolor rhoncus.Tristique sit eros
+                consectetur adipiscing elit..
+              </p>
+            </div>
+            <button
+              class="w-[163px] h-[60px] bg-[#CD0001] font-[600] text-[#FFFFFF] rounded-[10px]"
             >
-              Get Expert Care From Home
-            </p>
-            <p
-              class="font-[400] w-[80%] text-[16px] leading-[28px] text-[#4B5563]"
-            >
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit urna,
-              tortor pulvinar dolor rhoncus.Tristique sit eros consectetur
-              adipiscing elit..
-            </p>
+              CONSULT NOW
+            </button>
           </div>
-          <button
-            class="w-[163px] h-[60px] bg-[#CD0001] font-[600] text-[#FFFFFF] rounded-[10px]"
-          >
-            CONSULT NOW
-          </button>
-        </div>
-        <!-- right -->
-        <div>
-          <img src="./assets/Frame 46.png" alt="" />
+          <!-- right -->
+          <div>
+            <img src="./assets/Frame 46.png" alt="" />
+          </div>
         </div>
       </div>
       <!-- world class care -->
-      <div
-        class="w-full h-[1413px] py-[64px] px-[80px] flex flex-col gap-[46px]"
-      >
+      <div class="container py-[64px] px-[80px] flex flex-col gap-[46px]">
         <!-- heading -->
         <div
-          class="w-full h-[120px] flex items-center justify-between gap-[24px]"
+          class="w-full flex items-center justify-between gap-[24px] flex-wrap"
         >
-          <p class="text-[#111928] font-[600] text-[48px] leading-[60px]">
+          <p
+            class="text-[#111928] font-[600] lg:text-[40px] xl:text-[48px] leading-[60px]"
+          >
             World-Class Care Close to Home
           </p>
           <p class="font-[400] text-[16px] leading-[28px] text-[#4B5563]">
@@ -291,55 +310,115 @@
           </p>
         </div>
         <!-- images -->
-        <div class="w-full h-[1119px] flex flex-col gap-[24px]">
-          <div class="flex justify-between">
-            <img src="./assets/48.png" alt="" />
-            <img src="./assets/50.png" alt="" />
+        <div class="gallery-section max-w-[1280px] grid gap-[24px]">
+          <div
+            class="grid xl:grid-cols-2 lg:grid-cols-3 max-w-[1280px] gap-[24px]"
+          >
+            <div class="grid lg:col-span-2 lg:max-w-[730px] xl:col-span-1">
+              <img
+                src="./assets/48.png"
+                alt="Image-1"
+                class="w-full h-[357px] rounded-[12px] object-cover"
+              />
+            </div>
+            <div class="grid w-full lg:max-w-[550px] xl:max-w-full">
+              <img
+                src="./assets/50.png"
+                alt="Image-2"
+                class="w-full h-[357px] rounded-[12px] object-cover"
+              />
+            </div>
           </div>
-          <div class="flex justify-between">
-            <img src="./assets/482.png" alt="" />
-            <img src="./assets/492.png" alt="" />
-            <img src="./assets/502.png" alt="" />
+
+          <div
+            class="grid gap-[24px] lg:grid-cols-4 xl:grid-cols-3 md:grid-cols-3 xl:gap-[24px] lg:gap-[10px] md:gap-[24px] max-w-[1280px]"
+          >
+            <div
+              class="grid w-full lg:col-span-1 xl:w-full lg:max-w-full md:max-w-full md:col-span-2 xl:col-span-1"
+            >
+              <img
+                src="./assets/482.png"
+                alt="Image-3"
+                class="w-full h-[357px] rounded-[12px] object-cover"
+              />
+            </div>
+            <div
+              class="grid w-full col-span-1 lg:col-span-2 lg:max-w-full xl:col-span-1"
+            >
+              <img
+                src="./assets/492.png"
+                alt="Image-4"
+                class="w-full h-[357px] rounded-[12px] object-cover"
+              />
+            </div>
+
+            <div
+              class="grid w-full lg:col-span-1 xl:w-full lg:max-w-full md:max-w-full md:col-span-3 xl:col-span-1 justify-items-center"
+            >
+              <img
+                src="./assets/502.png"
+                alt="Image-5"
+                class="w-full h-[357px] rounded-[12px] object-cover"
+              />
+            </div>
           </div>
-          <div class="flex justify-between">
-            <img src="./assets/483.png" alt="" />
-            <img src="./assets/503.png" alt="" />
+          <div
+            class="grid xl:grid-cols-2 lg:grid-cols-3 md:grid-cols-2 max-w-[1280px] gap-[24px]"
+          >
+            <div
+              class="grid w-full lg:max-w-[550px] xl:max-w-full lg:col-span-1 md:col-span-1"
+            >
+              <img
+                src="./assets/483.png"
+                alt="Image-6"
+                class="w-full h-[357px] rounded-[12px] object-cover"
+              />
+            </div>
+            <div class="grid lg:col-span-2 lg:max-w-[730px] xl:col-span-1">
+              <img
+                src="./assets/503.png"
+                alt="Image-7"
+                class="w-full h-[357px] rounded-[12px] object-cover"
+              />
+            </div>
           </div>
         </div>
       </div>
       <!-- experts -->
-      <div
-        class="w-full h-[677px] py-[64px] px-[80px] flex flex-col gap-[46px] bg-gradient-to-r from-[#FFFFFF] to-[#FFF4E8]"
-      >
-        <!-- heading -->
-        <div
-          class="w-full h-[120px] flex items-center justify-between gap-[24px]"
-        >
-          <p class="text-[#111928] font-[600] text-[48px] leading-[60px]">
-            Compassionate Care from Experts
-          </p>
-          <p class="font-[400] text-[16px] leading-[28px] text-[#4B5563]">
-            Our skilled doctors provide personalized treatment, ensuring your
-            health and well-being at every step.
-          </p>
-        </div>
-        <!-- images -->
-        <div class="w-full flex justify-between">
-          <img src="./assets/Pricing Card.png" alt="" />
-          <img src="./assets/Pricing Card (1).png" alt="" />
-          <img src="./assets/Pricing Card (2).png" alt="" />
-          <img src="./assets/Pricing Card (3).png" alt="" />
+      <div class="w-full bg-gradient-to-r from-[#FFFFFF] to-[#FFF4E8]">
+        <div class="container flex flex-col gap-[46px] py-[64px] px-[80px]">
+          <!~~ heading ~~>
+          <div
+            class="w-full flex items-center justify-between gap-[24px] flex-wrap"
+          >
+            <p
+              class="text-[#111928] font-[600] lg:text-[40px] xl:text-[48px] leading-[60px]"
+            >
+              Compassionate Care from Experts
+            </p>
+            <p class="font-[400] text-[16px] leading-[28px] text-[#4B5563]">
+              Our skilled doctors provide personalized treatment, ensuring your
+              health and well-being at every step.
+            </p>
+          </div>
+          <!~~ images ~~>
+          <div class="w-full flex justify-around flex-wrap gap-[24px]">
+            <img src="./assets/Pricing Card.png" alt="" />
+            <img src="./assets/Pricing Card (1).png" alt="" />
+            <img src="./assets/Pricing Card (2).png" alt="" />
+            <img src="./assets/Pricing Card (3).png" alt="" />
+          </div>
         </div>
       </div>
       <!-- pricing -->
-      <div
-        class="w-full h-[961px] py-[64px] px-[80px] flex flex-col gap-[46px]"
-      >
-        <!-- heading -->
+      <div class="container py-[64px] px-[80px] flex flex-col gap-[46px]">
+        <!~~ heading ~~>
         <div
-          class="w-full h-[120px] flex items-center justify-between gap-[24px]"
+          class="w-full flex items-center justify-between gap-[24px] flex-wrap"
         >
-          <p class="text-[#111928] font-[600] text-[48px] leading-[60px]">
+          <p
+            class="text-[#111928] font-[600] lg:text-[40px] xl:text-[48px] leading-[60px]"
+          >
             Comprehensive Care, Tailored for You
           </p>
           <p class="font-[400] text-[16px] leading-[28px] text-[#4B5563]">
@@ -347,10 +426,12 @@
             and your loved ones healthy.
           </p>
         </div>
-        <!-- pricing cards -->
-        <div class="w-full h-[667px] flex justify-between">
+        <!~~ pricing cards ~~>
+        <div
+          class="max-w-[1280px] w-full flex justify-center flex-wrap gap-[48px]"
+        >
           <div
-            class="w-[394px] rounded-[24px] h-full flex justify-center items-center bg-gradient-to-b from-[#FFFFFF] to-[#FFF4E8]"
+            class="w-[394px] py-[40px] px-[3px] rounded-[24px] h-full flex justify-center items-center bg-gradient-to-b from-[#FFFFFF] to-[#FFF4E8]"
           >
             <div class="w-[308px] h-[587px] flex flex-col justify-between">
               <div class="flex flex-col gap-[16px]">
@@ -451,7 +532,7 @@
             </div>
           </div>
           <div
-            class="w-[394px] rounded-[24px] h-full flex justify-center items-center bg-gradient-to-b from-[#FFFFFF] to-[#FFF4E8]"
+            class="w-[394px] py-[40px] px-[3px] rounded-[24px] h-full flex justify-center items-center bg-gradient-to-b from-[#FFFFFF] to-[#FFF4E8]"
           >
             <div class="w-[308px] h-[587px] flex flex-col justify-between">
               <div class="flex flex-col gap-[16px]">
@@ -552,7 +633,7 @@
             </div>
           </div>
           <div
-            class="w-[394px] rounded-[24px] h-full flex justify-center items-center bg-gradient-to-b from-[#FFFFFF] to-[#FFF4E8]"
+            class="w-[394px] py-[40px] px-[3px] rounded-[24px] h-full flex justify-center items-center bg-gradient-to-b from-[#FFFFFF] to-[#FFF4E8]"
           >
             <div class="w-[308px] h-[587px] flex flex-col justify-between">
               <div class="flex flex-col gap-[16px]">
@@ -656,33 +737,32 @@
       </div>
       <!-- blogs -->
       <div
-        class="w-full h-[977px] pt-[64px] pb-[164px] px-[80px] flex flex-col gap-[46px]"
+        class="container pt-[64px] pb-[164px] px-[80px] flex flex-col gap-[46px]"
       >
-        <!-- heading -->
+        <!~~ heading ~~>
         <div
-          class="w-full h-[120px] flex items-center justify-between gap-[24px]"
+          class="w-full flex items-center justify-between gap-[24px] flex-wrap"
         >
-          <div class="w-[45%] h-full flex items-center">
-            <p class="text-[#111928] font-[600] text-[48px] leading-[60px]">
-              Stay Informed, Stay Healthy
-            </p>
-          </div>
-          <div class="w-[45%] h-full flex items-center">
-            <p class="font-[400] text-[16px] leading-[28px] text-[#4B5563]">
-              Explore our latest articles on wellness, heart health, and disease
-              management. Stay up to date with expert advice, patient stories,
-              and tips for maintaining a healthier lifestyle.
-            </p>
-          </div>
+          <p
+            class="text-[#111928] font-[600] lg:text-[40px] xl:text-[48px] leading-[60px]"
+          >
+            Stay Informed, Stay Healthy
+          </p>
+
+          <p class="font-[400] text-[16px] leading-[28px] text-[#4B5563]">
+            Explore our latest articles on wellness, heart health, and disease
+            management. Stay up to date with expert advice, patient stories, and
+            tips for maintaining a healthier lifestyle.
+          </p>
         </div>
-        <!-- cards -->
-        <div class="w-full h-[477px] flex justify-between">
+        <!~~ cards ~~>
+        <div class="w-full flex justify-center flex-wrap gap-[48px]">
           <div>
-            <!-- image -->
+            <!~~ image ~~>
             <div class="w-[405px] h-[268px] pt-[24px] pl-[24px] pr-[24px]">
               <img src="./assets/blog1.png" alt="" />
             </div>
-            <!-- text -->
+            <!~~ text ~~>
             <div
               class="w-[405px] h-[209px] p-[24px] flex flex-col justify-between"
             >
@@ -715,11 +795,11 @@
             </div>
           </div>
           <div>
-            <!-- image -->
+            <!~~ image ~~>
             <div class="w-[405px] h-[268px] pt-[24px] pl-[24px] pr-[24px]">
               <img src="./assets/blog2.png" alt="" />
             </div>
-            <!-- text -->
+            <!~~ text ~~>
             <div
               class="w-[405px] h-[209px] p-[24px] flex flex-col justify-between"
             >
@@ -751,11 +831,11 @@
             </div>
           </div>
           <div>
-            <!-- image -->
+            <!~~ image ~~>
             <div class="w-[405px] h-[268px] pt-[24px] pl-[24px] pr-[24px]">
               <img src="./assets/blog3.png" alt="" />
             </div>
-            <!-- text -->
+            <!~~ text ~~>
             <div
               class="w-[405px] h-[209px] p-[24px] flex flex-col justify-between"
             >
@@ -787,7 +867,7 @@
             </div>
           </div>
         </div>
-        <!-- buttons -->
+        <!~~ buttons ~~>
         <div class="w-full flex items-center justify-center">
           <button
             class="bg-[#CD0001] rounded-[10px] text-[#FFFFFF] py-[20px] px-[22px] font-[600] text-[16px] leading-[19px]"
@@ -797,15 +877,21 @@
         </div>
       </div>
       <!-- footer -->
-      <div
-        class="w-full h-[557px] flex justify-center items-center border-t-[1px] border-[#E5E7EB]"
+      <footer
+        class="w-full flex justify-center items-center border-t-[1px] border-[#E5E7EB]"
       >
         <div
-          class="w-[1280px] h-full flex justify-between border-b-[1px] border-[#E5E7EB]"
+          class="container relative h-full flex flex-wrap justify-between items-center border-b-[1px] border-[#E5E7EB]"
         >
-          <!-- left -->
+          <!-- logo -->
           <div
-            class="flex flex-[2] gap-[40px] py-[101px] px-[40px] justify-end"
+            class="w-[184px] h-[184px] border-[1px] rounded-full border-[#D1D5DB] flex justify-center items-center absolute -top-[100px] left-[50%] translate-x-[-50%]"
+          >
+            <img class="w-[144px] h-[144px]" src="./assets/logo.png" alt="" />
+          </div>
+          <!~~ left ~~>
+          <div
+            class="flex flex-[2] gap-[40px] justify-around py-[101px] px-[40px]"
           >
             <div class="flex flex-col gap-[16px]">
               <p
@@ -882,15 +968,10 @@
               >
             </div>
           </div>
-          <!-- center -->
+          <!~~ center ~~>
           <div
-            class="flex flex-[1] flex-col py-[100px] px-[55px] relative border-l-[1px] border-r-[1px] border-[#E5E7EB]"
+            class="flex flex-[1] flex-col py-[100px] px-[55px] border-l-[1px] border-r-[1px] border-[#E5E7EB]"
           >
-            <div
-              class="w-[184px] h-[184px] border-[1px] rounded-full border-[#D1D5DB] flex justify-center items-center absolute -top-[100px] left-[50%] translate-x-[-50%]"
-            >
-              <img class="w-[144px] h-[144px]" src="./assets/logo.png" alt="" />
-            </div>
             <div class="w-[294px] h-[263px]">
               <div class="flex flex-col text-center pb-[16px]">
                 <p
@@ -941,8 +1022,8 @@
               </div>
             </div>
           </div>
-          <!-- right -->
-          <div class="flex flex-[2] flex-col gap-[24px] py-[101px] px-[40px]">
+          <!~~ right ~~>
+          <div class="flex flex-[2] flex-col gap-[24px] py-[101px] px-[30px]">
             <div class="flex flex-col gap-[16px]">
               <p class="text-[#111928] font-[600] text-[14px] leading-[21px]">
                 FOLLOW US
@@ -1001,7 +1082,7 @@
             </div>
           </div>
         </div>
-      </div>
+      </footer>
       <!-- copyright -->
       <div class="w-full h-[58px] flex items-end justify-center">
         <p
