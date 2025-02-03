@@ -9,29 +9,37 @@
   </head>
   <body class="w-full bg-black flex justify-center">
     <div class="w-full bg-[#FFFFFF] h-auto">
-      <!--<nav
-        class="w-full h-[100px] bg-[#FFFFFF33] flex items-start py-[20px] justify-between rounded-br-[10px] rounded-bl-[10px]"
+      <nav
+        class="w-full h-[100px] bg-[#FFFFFF33] flex items-center py-[20px] justify-between rounded-br-[10px] rounded-bl-[10px] shadow-md shadow-[#0C0C0D0D] lg:px-0 px-[10px]"
       >
-        <div class="container flex items-center justify-center">
-          <div class="flex gap-[24px] items-center p-[10px]">
+        <div
+          class="container flex items-center justify-between lg:text-[13px] xl:text-[16px] relative"
+        >
+          <div class="lg:flex hidden gap-[24px] items-center p-[10px]">
             <a href="">Specialties</a>
             <a href="">About Us</a>
             <a href="">Emergency</a>
             <a href="">Treatments & Services</a>
           </div>
           <div
-            class="w-[144px] h-[144px] rounded-[500px] p-[20px] bg-[#FFFFFF33] z-10"
+            class="lg:w-[144px] lg:h-[144px] w-[95px] h-[95px] rounded-[500px] p-[20px] bg-[#FFFFFF33] z-10 object-cover lg:absolute lg:left-[50%] lg:translate-x-[-50%] lg:-top-[15px]"
           >
-            <img class="w-[104px] h-[104px]" src="./assets/logo.png" />
+            <img
+              class="lg:w-[104px] lg:h-[104px] md:w-[80px] md-h-[80px]"
+              src="./assets/logo.png"
+            />
           </div>
-          <div class="flex gap-[24px] items-center p-[10px]">
+          <div class="cursor-pointer block lg:hidden">
+            <img class="w-[25px]" src="./assets/bar.png" alt="" />
+          </div>
+          <div class="lg:flex hidden gap-[24px] items-center p-[10px]">
             <a href="">Online Consultation</a>
             <a href="">Health Packages</a>
             <a href="">Health Tips</a>
             <a href="">Contact Us</a>
           </div>
         </div>
-      </nav>-->
+      </nav>
       <div class="container h-[36px]"></div>
       <!-- slider section -->
       <div
@@ -422,9 +430,13 @@
           <!~~ images ~~>
           <div class="w-full flex justify-around flex-wrap gap-[24px]">
             <div
-              class="relative group border-[1px] border-[#9CA3AF] rounded-[24px] bg-white hover:bg-amber-950 transition-all duration-500"
+              class="relative group border-[1px] border-[#9CA3AF] rounded-[24px] bg-white hover:bg-amber-950 transition-all duration-500 w-[284px] flex justify-center items-center cursor-pointer"
             >
-              <img class="h-[383px]" src="./assets/Pricing Card.png" alt="" />
+              <img
+                class="h-[383px] object-cover"
+                src="./assets/Pricing Card.png"
+                alt=""
+              />
               <div
                 class="w-[252px] h-[86px] rounded-[24px] border-[1px] p-[16px] text-[#FFFFFF80] border-[#D1D5DB] backdrop-blur-[9.6px] absolute flex justify-center items-center left-[50%] translate-x-[-50%] bottom-0 opacity-0 group-hover:bottom-[20px] group-hover:opacity-100 transition-all duration-300"
               >
@@ -443,7 +455,7 @@
               </div>
             </div>
             <div
-              class="relative group border-[1px] border-[#9CA3AF] rounded-[24px] bg-white hover:bg-amber-950 transition-all duration-500"
+              class="relative group border-[1px] border-[#9CA3AF] rounded-[24px] bg-white hover:bg-amber-950 transition-all duration-500 w-[284px] flex justify-center items-center cursor-pointer"
             >
               <img
                 class="h-[383px]"
@@ -468,10 +480,10 @@
               </div>
             </div>
             <div
-              class="relative group border-[1px] border-[#9CA3AF] rounded-[24px] bg-white hover:bg-amber-950 transition-all duration-500"
+              class="relative group border-[1px] border-[#9CA3AF] rounded-[24px] bg-white hover:bg-amber-950 transition-all duration-500 w-[284px] flex justify-center items-center cursor-pointer"
             >
               <img
-                class="h-[383px] w-[284px] object-cover"
+                class="h-[383px] object-cover"
                 src="./assets/Pricing Card (2).png"
                 alt=""
               />
@@ -493,10 +505,10 @@
               </div>
             </div>
             <div
-              class="relative group border-[1px] border-[#9CA3AF] rounded-[24px] bg-white hover:bg-amber-950 transition-all duration-500"
+              class="relative group border-[1px] border-[#9CA3AF] rounded-[24px] bg-white hover:bg-amber-950 transition-all duration-500 w-[284px] flex justify-center items-center cursor-pointer"
             >
               <img
-                class="h-[383px]"
+                class="h-[383px] object-cover"
                 src="./assets/Pricing Card (3).png"
                 alt=""
               />
@@ -871,7 +883,7 @@
           </p>
         </div>
         <!~~ cards ~~>
-        <div class="w-full flex justify-center flex-wrap gap-[48px]">
+        <div class="w-full flex justify-center flex-wrap gap-[30px]">
           <div>
             <!~~ image ~~>
             <div class="w-[405px] h-[268px] pt-[24px] pl-[24px] pr-[24px]">
@@ -1192,7 +1204,7 @@
                     />
                   </div>
                   <button
-                    class="bg-[#CD0001] w-[127px] h-[42px] py-[10px] px-[20px] text-[#FFFFFF] font-[600] text-[16px] leading-[19px] rounded-tr-[8px] rounded-br-[8px]"
+                    class="bg-[#CD0001] w-[127px] h-[42px] py-[10px] px-[20px] text-[#FFFFFF] font-[600] text-[12px] sm:text-[16px] leading-[19px] rounded-tr-[8px] rounded-br-[8px]"
                   >
                     SUBSCRIBE
                   </button>
